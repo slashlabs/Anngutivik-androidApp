@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Properties to configure the application's UI and behaviour -->
+    <string name="contact_icon">CONTACTEZ NOUS</string>
+    <string name="previous_publications">PUBLICATIONS PRÉCÉDENTES</string>
+
+    <!-- Project Number of the Google API console identifying the notifications sender -->
+    <string name="sender_id"></string>
+
+    <!-- The application id that will be send to the server when retrieving the shelf -->
+    <string name="app_id">Baker Android</string>
+    <string name="exit">Quitter</string>
+    <string name="closing_app">Si vous quittez maintenant, les téléchargements en cours seront annulés, êtes-vous certains de vouloir quitter ?</string>
+    <string name="no_shelf_no_internet">Vous devez être connecter à Internet lors du premier démarrage.</string>
+    <string name="yes">Oui</string>
+    <string name="no">Non</string>
+    <string name="could_not_download_shelf">Impossible de télécharger les magazines</string>
+    <string name="could_not_save_shelf">Impossible de sauvegarder la bibliothèque à l\'appareil</string>
+    <string name="could_not_read_shelf">Impossible de lire la bibliothèque de l\'appareil</string>
+    <string name="invalid_book_json">Magazines invalides</string>
+    <string name="cannot_view_online">Impossible de lire les magazines en ligne, une connection internet est requise.</string>
+    <string name="cannot_download_issue">Impossible de télécharger les magazines, une connection internet est requise</string>
+
+    <!-- Shelf URL -->
+    <string name="newstand_manifest_url">http://epublications.utturautik.ca/anngutivik/shelf_fr.json</string>
+    <string name="purchase_confirmation_url">http://epublications.utturautik.ca/anngutivik/shelf_fr.json</string>
+    <string name="purchases_url">http://epublications.utturautik.ca/anngutivik/shelf_fr.json</string>
+    <string name="post_apns_token_url">http://epublications.utturautik.ca/anngutivik/shelf_fr.json</string>
+    <string name="download_report_url">http://epublications.utturautik.ca/anngutivik/shelf_fr.json</string>
+
+    <!--
+         Referrer strings to use with links to open them in the device's internet browser or in the same view from gindpubs
+        For more information about links: https://github.com/bakerframework/baker/wiki/Managing-links-and-urls
+    -->
+    <string name="url_gindpubs_referrer">Baker</string>
+    <string name="url_external_referrer">Safari</string>
+
+    <!-- Path to store the cache for the thumbnails inside the system's cache directory. -->
+    <string name="thumbnails">thumbnails</string>
+
+    <!-- Path in the device storage where to save the magazine files. -->
+    <string name="magazines">magazines</string>
+
+    <!-- Filename of the cached json file. The file will be updated if the user has internet access. -->
+    <string name="shelf">shelf.json</string>
+
+    <!-- Name of the json that describes the magazine. -->
+    <string name="book">book.json</string>
+
+    <!-- Name of the magazine's index file. -->
+    <string name="index">index.html</string>
+    <string name="package_extension">.zip</string>
+
+    <!-- General strings for the UI -->
+    <string name="app_name">Anngutivik</string>
+    <string name="action_settings">Paramètres</string>
+    <string name="action_info">Info</string>
+    <string name="headerUrl">file:///android_asset/header_fr.html</string>
+    <string name="loadingUrl">file:///android_asset/loading_fr.html</string>
+    <string name="backgroundUrl">file:///android_asset/background.html</string>
+    <string name="infoUrl">file:///android_asset/info_fr.html</string>
+    <string name="inputDateFormat">yyyy-MM-dd</string>
+    <string name="outputDateFormat">dd MMM yyyy</string>
+    <string name="download">Télécharger</string>
+    <string name="preview">Aperçu</string>
+    <string name="loadingPreview">Chargement de l\'aperçu</string>
+    <string name="read">Lire</string>
+    <string name="archive">Archiver</string>
+    <string name="downloading">Téléchargement</string>
+    <string name="unzipping">Extraction</string>
+    <string name="deleting">Suppression</string>
+    <string name="thumbImageDescription">Vignette</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="archiveConfirm">Êtes-vous certain de vouloir archiver ce magazine ?
+    </string>
+    <string name="back">Précédent</string>
+    <string name="next">Suivant</string>
+    <string name="finish">Finir</string>
+
+    <!-- Hostname to try to reach to test the internet connection on the device, e.g. when downloading the shelf, check if your server is reachable. -->
+    <string name="check_internet_with_host">http://google.com</string>
+    <!-- The time in milliseconds before considering the host is unreachable and no internet access. -->
+    <integer name="check_internet_timeout">15000</integer>
+
+    <!-- Strings for the preferences -->
+    <string name="pref_notifications_title">Notifications</string>
+    <string name="pref_receive_notifications">Enable notifications</string>
+    <string name="pref_receive_notifications_summary">Enable to receive content and messages from the cloud</string>
+    <string name="pref_receive_notifications_download">Enable automatic downloads</string>
+    <string name="pref_receive_notifications_download_summary">Automatically download new content when available</string>
+    <string name="pref_receive_notifications_download_only_wifi">Only Wi-Fi</string>
+    <string name="pref_receive_notifications_download_only_wifi_summary">Download the new content only when a Wi-Fi network is available</string>
+
+    <string name="pref_google_analytics_title">Google Analytics</string>
+    <string name="pref_enable_analytics">Enable Google Analytics</string>
+    <string name="pref_enable_analytics_summary">Send usage data to Google Analytics</string>
+    
+    <!--Strings for the Google Analytics events-->
+    <string name="issues_category">Issues</string>
+    <string name="issue_open">Issue Open</string>
+    <string name="issue_download">Issue Download</string>
+    <string name="issue_delete">Issue Delete</string>
+    <string name="issue_page_view">Issue Page View</string>
+
+    <string name="application_category">Application</string>
+    <string name="application_open">Application Open</string>
+    <string name="application_open_label">Application Opened</string>
+
+    <!-- Strings for the standalone mode -->
+    <string name="sa_books_directory">books</string>
+    <string name="sa_no_issues">No issues found.</string>
+    <string name="sa_downloading_expansion">Downloading additional files</string>
+    <string name="sa_extracting_expansion">Extracting data</string>
+    <string name="sa_cannot_download_expansion">Could not download the expansion file.</string>
+    <string name="sa_download_paused_roaming">Download was paused because you are roaming.</string>
+    <string name="sa_download_paused_cellular">Download was paused because you are on a cellular network.</string>
+    <string name="sa_download_paused_wifi_unavailable">Download paused because Wi-Fi is unavailable.</string>
+    <string name="sa_download_failed">Download could not be completed.</string>
+
+    <!-- Strings for the usage tutorial -->
+    <string name="ut_directory">abaker_usage</string>
+    <!-- The names of the pages, separated by ">", that will be included in the tutorial for showing the users
+     how to use ABaker. These must be present in the "ut_directory" directory.
+     You can customize those pages as you wish with HTML code, or add more if you want. -->
+    <string name="ut_pages">download.html > read.html > archive.html</string>
+    <string name="title_activity_sliding_menu">SlidingMenu</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
